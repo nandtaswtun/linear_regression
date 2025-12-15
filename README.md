@@ -34,3 +34,6 @@ The Linear Regression model demonstrated strong predictive power.
 * `pandas` (Data manipulation)
 * `numpy` (Numerical operations)
 * `sklearn` (Machine Learning: `LinearRegression`, `train_test_split`, `metrics`)
+
+## 📊 Data Source
+https://www.kaggle.com/datasets/rohiteng/amazon-sales-dataset
