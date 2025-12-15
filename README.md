@@ -29,16 +29,6 @@ The Linear Regression model demonstrated strong predictive power.
 | **MAE (Mean Absolute Error)** | **\$166.02** | On average, the model's prediction was off by **\$166.02**. |
 | **RMSE (Root Mean Squared Error)** | **\$217.11** | The average magnitude of the errors, slightly higher than MAE due to sensitivity to larger prediction errors (outliers). |
 
-### Top Drivers of Total Amount (Feature Coefficients)
-
-The coefficients indicate the impact of a one-unit change in a feature on the predicted `TotalAmount`.
-
-| Feature | Coefficient | Impact |
-| :--- | :--- | :--- |
-| **Quantity** | **+245.85** | The single largest driver: every additional item in the order increases the total amount by approximately **\$245.85**. |
-| **Brand\_KiddoFun** | +12.14 | Orders for this brand are, on average, $\$12.14$ higher than the baseline brand. |
-| **Country\_United Kingdom** | +7.99 | Orders to the UK are, on average, $\$7.99$ higher than the baseline country. |
-
 ## 🛠️ Key Libraries
 
 * `pandas` (Data manipulation)
